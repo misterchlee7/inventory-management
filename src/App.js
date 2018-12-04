@@ -16,5 +16,3 @@ class App extends Component {
 }
 
 export default App;
-
-// separate layout to ui and main since not using props.children anymore
