@@ -7,7 +7,9 @@ const navbar = (props) => {
   return (
     <div className={classes.Navbar}>
       <p>Hamburger Menu</p>
-      <Logo height="30px" />
+      <Logo 
+        height="30px"
+        redirect="/" />
       <p>Nav</p>
     </div>
   );

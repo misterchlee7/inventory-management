@@ -5,7 +5,7 @@ import Logo from '../../assets/images/logo.png';
 const logo = (props) => {
   return (
     <div>
-      <a href="/">
+      <a href={props.redirect}>
         <img 
           src={Logo}
           alt="logo.png" 
