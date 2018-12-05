@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 // Mongoose
 mongoose.Promise = global.Promise;
-mongoose.connect(config.DATABASE_ADDRESS);
+mongoose.connect(config.MONGODB_URI, { useNewUrlParser: true });
 
 // Express
 const app = express();
