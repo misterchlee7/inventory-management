@@ -1,0 +1,1 @@
+const OrganizationModel = require('../model/organizations');
